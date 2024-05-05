@@ -1,0 +1,20 @@
+{
+    "sensors": [
+      {
+        "type": "TempratureSensor",
+        "valid_range": [0, 50]
+      },
+      {
+        "type": "HumiditySensor",
+        "valid_range": [ 20, 90 ]
+      },
+      {
+        "type": "PressureSensor",
+        "valid_range": [ 0, 100 ]
+      },
+      {
+        "type": "N2OSensor",
+        "valid_range": [ 0, 100 ]
+      }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "alert": [
+    {
+      "type": "slack",
+      "name": "url"
+    },
+    {
+      "type": "sns",
+      "name": "url"
+    },
+    {
+      "type": "email",
+      "name": ['liadky@gmail.com']
+    },
+  ]
+}

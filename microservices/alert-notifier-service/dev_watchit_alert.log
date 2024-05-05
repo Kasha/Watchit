@@ -1,0 +1,610 @@
+2024-05-03 06:27:33 INFO     registered exception handlers
+2024-05-03 06:27:33 INFO     registered exception handlers
+2024-05-03 06:27:33 DEBUG    Using selector: SelectSelector
+2024-05-03 06:27:33 INFO     registered exception handlers
+2024-05-03 06:27:33 INFO     registered exception handlers
+2024-05-03 06:27:34 INFO     registered exception handlers
+2024-05-03 06:27:34 INFO     registered exception handlers
+2024-05-03 06:27:34 DEBUG    Using selector: SelectSelector
+2024-05-03 06:27:34 INFO     registered exception handlers
+2024-05-03 06:27:34 INFO     registered exception handlers
+2024-05-03 06:27:45 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-03 06:27:45 INFO     Notification of invalid sensor's data:sensor='string' value=0 details='string'
+2024-05-03 06:27:45 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-03 06:28:13 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-03 06:28:13 INFO     Notification of invalid sensor's data:sensor='Humidity' value=200 details='blablabla'
+2024-05-03 06:28:13 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-03 06:31:17 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-03 06:31:17 INFO     Notification of invalid sensor's data:sensor='Humidity' value=200 details='blablabla'
+2024-05-03 06:31:17 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-03 06:31:26 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify_all/
+2024-05-03 06:31:26 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify_all/
+2024-05-03 06:31:51 INFO     registered exception handlers
+2024-05-03 06:31:51 INFO     registered exception handlers
+2024-05-03 06:31:52 INFO     registered exception handlers
+2024-05-03 06:31:52 INFO     registered exception handlers
+2024-05-03 06:31:52 DEBUG    Using selector: SelectSelector
+2024-05-03 06:31:52 INFO     registered exception handlers
+2024-05-03 06:31:52 INFO     registered exception handlers
+2024-05-03 06:31:52 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-03 06:31:58 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-03 06:31:58 INFO     Notification of invalid sensor's data: sensor='Humidity' value=200 details='blablabla'
+2024-05-03 06:31:58 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-03 06:32:01 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-03 06:32:25 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-03 06:32:33 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-03 06:33:57 DEBUG    3 changes detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\main.py'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\main.py~'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\main.py~')}
+2024-05-03 06:34:03 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-03 06:34:04 INFO     registered exception handlers
+2024-05-03 06:34:04 INFO     registered exception handlers
+2024-05-03 06:34:04 DEBUG    Using selector: SelectSelector
+2024-05-03 06:34:04 INFO     registered exception handlers
+2024-05-03 06:34:04 INFO     registered exception handlers
+2024-05-03 06:34:04 DEBUG    6 changes detected: {(<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc.2673348009328'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc.2673348009328')}
+2024-05-03 06:34:08 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-03 06:34:08 INFO     Notification of invalid sensor's data: sensor='Humidity' value=200 details='blablabla'
+2024-05-03 06:34:08 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-03 06:34:12 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-03 06:34:39 DEBUG    3 changes detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\main.py'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\main.py~'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\main.py~')}
+2024-05-03 06:34:43 INFO     registered exception handlers
+2024-05-03 06:34:43 INFO     registered exception handlers
+2024-05-03 06:34:44 INFO     registered exception handlers
+2024-05-03 06:34:44 INFO     registered exception handlers
+2024-05-03 06:34:44 DEBUG    Using selector: SelectSelector
+2024-05-03 06:34:45 INFO     registered exception handlers
+2024-05-03 06:34:45 INFO     registered exception handlers
+2024-05-03 06:34:45 DEBUG    6 changes detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc.2701707599216'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc.2701707599216')}
+2024-05-03 06:34:48 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-03 06:34:48 INFO     Notification of invalid sensor's data: sensor='Humidity' value=200 details='blablabla'
+2024-05-03 06:34:48 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-03 06:34:51 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-03 06:35:06 DEBUG    3 changes detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\main.py'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\main.py~'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\main.py~')}
+2024-05-03 06:40:44 DEBUG    16 changes detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\alert_notifier_service_base.py'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\main.py~'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\clients\\alert_notifier_client.py'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\domains\\alert_notifier_domain.py'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\clients'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\domains\\alert_notifier_domain.py~'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\main.py'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\alert_notifier_service_base.py~'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\domains'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\alert_notifier_service_base.py~'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\domains\\alert_notifier_domain.py~'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\clients\\alert_notifier_client.py~'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\main.py~'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\clients\\alert_notifier_client.py~')}
+2024-05-03 06:40:44 INFO     registered exception handlers
+2024-05-03 06:40:44 INFO     registered exception handlers
+2024-05-03 06:40:44 DEBUG    Using selector: SelectSelector
+2024-05-03 06:40:45 INFO     registered exception handlers
+2024-05-03 06:40:45 INFO     registered exception handlers
+2024-05-03 06:40:45 DEBUG    21 changes detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\clients\\__pycache__'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\__pycache__\\alert_notifier_service_base.cpython-310.pyc'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\domains\\__pycache__\\alert_notifier_domain.cpython-310.pyc'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\clients\\__pycache__\\alert_notifier_client.cpython-310.pyc.1576423864624'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\__pycache__\\alert_notifier_service_base.cpython-310.pyc'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\domains\\__pycache__\\alert_notifier_domain.cpython-310.pyc'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\domains\\__pycache__\\alert_notifier_domain.cpython-310.pyc.1576423864240'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\__pycache__'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc.1576427909264'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\domains\\__pycache__\\alert_notifier_domain.cpython-310.pyc.1576423864240'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\domains\\__pycache__'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\__pycache__\\alert_notifier_service_base.cpython-310.pyc.1576423865008'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc.1576427909264'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\clients\\__pycache__\\alert_notifier_client.cpython-310.pyc'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\__pycache__\\alert_notifier_service_base.cpython-310.pyc.1576423865008'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\clients\\__pycache__\\alert_notifier_client.cpython-310.pyc'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\clients\\__pycache__\\alert_notifier_client.cpython-310.pyc.1576423864624')}
+2024-05-03 06:40:47 INFO     registered exception handlers
+2024-05-03 06:40:47 INFO     registered exception handlers
+2024-05-03 06:40:47 DEBUG    Using selector: SelectSelector
+2024-05-03 06:40:47 INFO     registered exception handlers
+2024-05-03 06:40:47 INFO     registered exception handlers
+2024-05-03 06:40:47 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-03 06:40:53 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-03 06:40:57 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-03 06:41:46 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-03 06:41:54 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-03 06:41:54 INFO     Notification of invalid sensor's data: sensor='Humidity' value=200 details='blablabla'
+2024-05-03 06:41:54 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-03 06:41:58 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-03 06:42:07 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-03 06:42:29 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-03 15:01:32 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-03 15:29:42 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-03 15:30:42 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-03 15:32:23 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:11:54 INFO     registered exception handlers
+2024-05-04 22:11:54 INFO     registered exception handlers
+2024-05-04 22:11:57 INFO     registered exception handlers
+2024-05-04 22:11:57 INFO     registered exception handlers
+2024-05-04 22:11:57 DEBUG    Using selector: SelectSelector
+2024-05-04 22:11:57 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:11:57 INFO     registered exception handlers
+2024-05-04 22:11:57 INFO     registered exception handlers
+2024-05-04 22:11:58 DEBUG    5 changes detected: {(<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc.2370330013840'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc.2370330013840')}
+2024-05-04 22:12:04 DEBUG    4 changes detected: {(<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\.idea\\workspace.xml~'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\.idea\\workspace.xml'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\.idea\\workspace.xml~'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\.idea')}
+2024-05-04 22:12:10 DEBUG    received request - [GET] - http://127.0.0.1:8001/docs
+2024-05-04 22:12:10 DEBUG    returned response - [200] - http://127.0.0.1:8001/docs
+2024-05-04 22:12:11 DEBUG    received request - [GET] - http://127.0.0.1:8001/openapi.json
+2024-05-04 22:12:11 DEBUG    returned response - [200] - http://127.0.0.1:8001/openapi.json
+2024-05-04 22:12:16 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify_all/
+2024-05-04 22:12:16 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify_all/
+2024-05-04 22:12:28 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 22:12:28 INFO     Notification of invalid sensor's data: sensor='string' value=0 details='string'
+2024-05-04 22:12:28 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 22:12:37 DEBUG    2 changes detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\.idea'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:13:45 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:14:52 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:15:49 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:16:14 INFO     registered exception handlers
+2024-05-04 22:16:14 INFO     registered exception handlers
+2024-05-04 22:16:16 INFO     registered exception handlers
+2024-05-04 22:16:16 INFO     registered exception handlers
+2024-05-04 22:16:16 DEBUG    Using selector: SelectSelector
+2024-05-04 22:16:16 INFO     registered exception handlers
+2024-05-04 22:16:16 INFO     registered exception handlers
+2024-05-04 22:16:16 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:16:27 DEBUG    received request - [GET] - http://127.0.0.1:8001/docs
+2024-05-04 22:16:27 DEBUG    returned response - [200] - http://127.0.0.1:8001/docs
+2024-05-04 22:16:27 DEBUG    received request - [GET] - http://127.0.0.1:8001/openapi.json
+2024-05-04 22:16:27 DEBUG    returned response - [200] - http://127.0.0.1:8001/openapi.json
+2024-05-04 22:16:33 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 22:16:33 INFO     Notification of invalid sensor's data: sensor='string' value=0 details='string'
+2024-05-04 22:16:33 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 22:16:38 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:17:11 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/http://127.0.0.1:8001/watchit/
+2024-05-04 22:17:11 DEBUG    returned response - [404] - http://127.0.0.1:8001/watchit/http://127.0.0.1:8001/watchit/
+2024-05-04 22:17:15 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:17:17 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:17:24 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:17:45 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:17:52 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:18:11 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:19:10 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/http://127.0.0.1:8001/watchit/
+2024-05-04 22:19:10 DEBUG    returned response - [404] - http://127.0.0.1:8001/watchit/http://127.0.0.1:8001/watchit/
+2024-05-04 22:19:26 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:19:34 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:19:38 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:19:52 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:22:45 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/http://127.0.0.1:8001/watchit/
+2024-05-04 22:22:45 DEBUG    returned response - [404] - http://127.0.0.1:8001/watchit/http://127.0.0.1:8001/watchit/
+2024-05-04 22:22:52 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:24:51 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:25:06 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:25:10 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:26:11 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 22:26:11 INFO     Notification of invalid sensor's data: sensor='TempratureSensor' value=51 details='Validate TempratureSensor: 51 Not in range 0-50'
+2024-05-04 22:26:11 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 22:27:09 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:28:38 DEBUG    3 changes detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\main.py'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\main.py~'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\main.py~')}
+2024-05-04 22:28:44 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:28:46 INFO     registered exception handlers
+2024-05-04 22:28:46 INFO     registered exception handlers
+2024-05-04 22:28:46 DEBUG    Using selector: SelectSelector
+2024-05-04 22:28:46 INFO     registered exception handlers
+2024-05-04 22:28:46 INFO     registered exception handlers
+2024-05-04 22:28:46 DEBUG    6 changes detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc.1528425525392'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc.1528425525392'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc')}
+2024-05-04 22:28:51 INFO     registered exception handlers
+2024-05-04 22:28:51 INFO     registered exception handlers
+2024-05-04 22:28:53 INFO     registered exception handlers
+2024-05-04 22:28:53 INFO     registered exception handlers
+2024-05-04 22:28:53 DEBUG    Using selector: SelectSelector
+2024-05-04 22:28:53 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:28:53 INFO     registered exception handlers
+2024-05-04 22:28:53 INFO     registered exception handlers
+2024-05-04 22:29:19 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:29:34 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:29:51 DEBUG    4 changes detected: {(<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\alert_models.py~'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\alert_models.py~'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\alert_models.py')}
+2024-05-04 22:29:59 DEBUG    2 changes detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:29:59 INFO     registered exception handlers
+2024-05-04 22:29:59 INFO     registered exception handlers
+2024-05-04 22:29:59 DEBUG    Using selector: SelectSelector
+2024-05-04 22:29:59 DEBUG    6 changes detected: {(<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\__pycache__\\alert_models.cpython-310.pyc'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\__pycache__\\alert_models.cpython-310.pyc.1509626290656'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\__pycache__'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\__pycache__\\alert_models.cpython-310.pyc.1509626290656'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\__pycache__\\alert_models.cpython-310.pyc')}
+2024-05-04 22:29:59 INFO     registered exception handlers
+2024-05-04 22:29:59 INFO     registered exception handlers
+2024-05-04 22:31:33 DEBUG    7 changes detected: {(<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\main.py~'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\main.py'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\alert_models.py~'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\main.py~'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\alert_models.py~'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\alert_models.py')}
+2024-05-04 22:32:46 INFO     registered exception handlers
+2024-05-04 22:32:46 INFO     registered exception handlers
+2024-05-04 22:32:48 INFO     registered exception handlers
+2024-05-04 22:32:48 INFO     registered exception handlers
+2024-05-04 22:32:48 DEBUG    Using selector: SelectSelector
+2024-05-04 22:32:48 INFO     registered exception handlers
+2024-05-04 22:32:48 INFO     registered exception handlers
+2024-05-04 22:32:48 DEBUG    6 changes detected: {(<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc.2131136590112'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc.2131136590112')}
+2024-05-04 22:32:52 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:33:10 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:34:31 DEBUG    4 changes detected: {(<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\alert_notifier_service_base.py~'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\alert_notifier_service_base.py~'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\alert_notifier_service_base.py')}
+2024-05-04 22:52:14 DEBUG    26 changes detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\alert_models.py'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\domains\\alert_notifier_domain.py~'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\alert_notifier_log_service.py'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\alert_notifier_service_base.py'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\alert_notifier_log_service.py~'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\clients\\alert_notifier_client.py'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\alert_notifier_service_base.py~'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\alert_notifier_log_service.py~'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\clients\\alert_notifier_client_base.py'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\domains\\alert_notifier_domain_base.py~'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\alert_notifier_service_base.py~'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\clients\\alert_notifier_client.py~'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\domains\\alert_notifier_domain_base.py'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\domains\\alert_notifier_domain_base.py~'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\clients\\alert_notifier_client.py~'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\alert_models.py~'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\clients\\alert_notifier_client_base.py~'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\domains'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\clients'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\domains\\alert_notifier_domain.py~'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\alert_models.py~'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\domains\\alert_notifier_domain.py'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\clients\\alert_notifier_client_base.py~')}
+2024-05-04 22:52:15 INFO     registered exception handlers
+2024-05-04 22:52:15 INFO     registered exception handlers
+2024-05-04 22:52:15 DEBUG    Using selector: SelectSelector
+2024-05-04 22:52:15 INFO     registered exception handlers
+2024-05-04 22:52:15 INFO     registered exception handlers
+2024-05-04 22:52:15 DEBUG    33 changes detected: {(<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\clients\\__pycache__\\alert_notifier_client.cpython-310.pyc.2226633521456'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\__pycache__\\alert_notifier_service_base.cpython-310.pyc'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\clients\\__pycache__\\alert_notifier_client.cpython-310.pyc'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\clients\\__pycache__'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\__pycache__\\alert_notifier_service_base.cpython-310.pyc'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\__pycache__\\alert_models.cpython-310.pyc'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\__pycache__\\alert_models.cpython-310.pyc.2226632532448'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\clients\\__pycache__\\alert_notifier_client.cpython-310.pyc.2226633521456'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\clients\\__pycache__\\alert_notifier_client.cpython-310.pyc'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\domains\\__pycache__\\alert_notifier_domain_base.cpython-310.pyc'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\__pycache__\\alert_notifier_log_service.cpython-310.pyc.2226633521648'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\__pycache__\\alert_notifier_log_service.cpython-310.pyc'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\domains\\__pycache__\\alert_notifier_domain.cpython-310.pyc.2226633521072'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\__pycache__\\alert_models.cpython-310.pyc'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\__pycache__\\alert_models.cpython-310.pyc.2226632532448'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\domains\\__pycache__\\alert_notifier_domain_base.cpython-310.pyc'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\__pycache__\\alert_notifier_log_service.cpython-310.pyc.2226633521648'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\__pycache__\\alert_notifier_log_service.cpython-310.pyc'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\domains\\__pycache__'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\__pycache__'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\__pycache__\\alert_notifier_service_base.cpython-310.pyc.2226633521840'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\domains\\__pycache__\\alert_notifier_domain.cpython-310.pyc.2226633521072'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\clients\\__pycache__\\alert_notifier_client_base.cpython-310.pyc.2226633521648'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\domains\\__pycache__\\alert_notifier_domain.cpython-310.pyc'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\__pycache__'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\domains\\__pycache__\\alert_notifier_domain_base.cpython-310.pyc.2226633519344'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\__pycache__\\alert_notifier_service_base.cpython-310.pyc.2226633521840'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\clients\\__pycache__\\alert_notifier_client_base.cpython-310.pyc'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\clients\\__pycache__\\alert_notifier_client_base.cpython-310.pyc.2226633521648'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\domains\\__pycache__\\alert_notifier_domain.cpython-310.pyc'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\domains\\__pycache__\\alert_notifier_domain_base.cpython-310.pyc.2226633519344'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\clients\\__pycache__\\alert_notifier_client_base.cpython-310.pyc')}
+2024-05-04 22:52:16 INFO     registered exception handlers
+2024-05-04 22:52:16 INFO     registered exception handlers
+2024-05-04 22:52:16 DEBUG    Using selector: SelectSelector
+2024-05-04 22:52:16 INFO     registered exception handlers
+2024-05-04 22:52:16 INFO     registered exception handlers
+2024-05-04 22:52:16 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:52:23 INFO     registered exception handlers
+2024-05-04 22:52:23 INFO     registered exception handlers
+2024-05-04 22:52:24 INFO     registered exception handlers
+2024-05-04 22:52:24 INFO     registered exception handlers
+2024-05-04 22:52:24 DEBUG    Using selector: SelectSelector
+2024-05-04 22:52:24 INFO     registered exception handlers
+2024-05-04 22:52:24 INFO     registered exception handlers
+2024-05-04 22:52:24 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:52:31 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:52:34 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:53:09 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:53:32 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:53:34 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:54:01 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:54:53 DEBUG    4 changes detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\alert_models.py~'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\alert_models.py~'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\alert_models.py')}
+2024-05-04 22:54:57 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:54:58 INFO     registered exception handlers
+2024-05-04 22:54:58 INFO     registered exception handlers
+2024-05-04 22:54:58 DEBUG    Using selector: SelectSelector
+2024-05-04 22:54:58 INFO     registered exception handlers
+2024-05-04 22:54:58 INFO     registered exception handlers
+2024-05-04 22:54:58 DEBUG    7 changes detected: {(<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\__pycache__\\alert_models.cpython-310.pyc.2318363533792'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\__pycache__\\alert_models.cpython-310.pyc.2318363533792'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\__pycache__\\alert_models.cpython-310.pyc'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\__pycache__'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\__pycache__\\alert_models.cpython-310.pyc')}
+2024-05-04 22:56:20 INFO     registered exception handlers
+2024-05-04 22:56:20 INFO     registered exception handlers
+2024-05-04 22:56:21 INFO     registered exception handlers
+2024-05-04 22:56:21 INFO     registered exception handlers
+2024-05-04 22:56:21 DEBUG    Using selector: SelectSelector
+2024-05-04 22:56:21 INFO     registered exception handlers
+2024-05-04 22:56:21 INFO     registered exception handlers
+2024-05-04 22:56:21 DEBUG    6 changes detected: {(<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc.2274795106736'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc.2274795106736')}
+2024-05-04 22:56:23 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:57:40 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:58:08 DEBUG    4 changes detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\alert_notifier_log_service.py'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\alert_notifier_log_service.py~'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\alert_notifier_log_service.py~'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services')}
+2024-05-04 22:58:13 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:58:14 INFO     registered exception handlers
+2024-05-04 22:58:14 INFO     registered exception handlers
+2024-05-04 22:58:14 DEBUG    Using selector: SelectSelector
+2024-05-04 22:58:14 INFO     registered exception handlers
+2024-05-04 22:58:14 INFO     registered exception handlers
+2024-05-04 22:58:14 DEBUG    7 changes detected: {(<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\__pycache__\\alert_notifier_log_service.cpython-310.pyc'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\__pycache__\\alert_notifier_log_service.cpython-310.pyc.2415240231408'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\__pycache__\\alert_notifier_log_service.cpython-310.pyc'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\__pycache__\\alert_notifier_log_service.cpython-310.pyc.2415240231408'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\__pycache__')}
+2024-05-04 22:58:20 INFO     registered exception handlers
+2024-05-04 22:58:20 INFO     registered exception handlers
+2024-05-04 22:58:21 INFO     registered exception handlers
+2024-05-04 22:58:21 INFO     registered exception handlers
+2024-05-04 22:58:21 DEBUG    Using selector: SelectSelector
+2024-05-04 22:58:21 INFO     registered exception handlers
+2024-05-04 22:58:21 INFO     registered exception handlers
+2024-05-04 22:58:21 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:58:39 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 22:59:38 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:00:18 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:00:18 INFO     Notification of invalid sensor's data: sensor='TempratureSensor' value=51 details='Validate TempratureSensor: 51 Not in range 0-50'
+2024-05-04 23:00:18 ERROR    Sensor Monitor, Internal server error - Validation exception handler. Error:1 validation error for AlertResponse
+details
+  Field required [type=missing, input_value={'res': True, 'sensor': 'TempratureSensor'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.7/v/missing
+2024-05-04 23:00:18 DEBUG    returned response - [422] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:01:08 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:01:15 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:02:54 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:02:54 INFO     Notification of invalid sensor's data: sensor='TempratureSensor' value=51 details='Validate TempratureSensor: 51 Not in range 0-50'
+2024-05-04 23:02:54 ERROR    Sensor Monitor, Internal server error - Validation exception handler. Error:1 validation error for AlertResponse
+details
+  Field required [type=missing, input_value={'res': True, 'sensor': 'TempratureSensor'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.7/v/missing
+2024-05-04 23:02:54 DEBUG    returned response - [422] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:03:05 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:03:25 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:03:53 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:03:53 INFO     Notification of invalid sensor's data: sensor='TempratureSensor' value=51 details='Validate TempratureSensor: 51 Not in range 0-50'
+2024-05-04 23:03:53 ERROR    Sensor Monitor, Internal server error - Validation exception handler. Error:1 validation error for AlertResponse
+details
+  Field required [type=missing, input_value={'res': True, 'sensor': 'TempratureSensor'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.7/v/missing
+2024-05-04 23:03:53 DEBUG    returned response - [422] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:04:09 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:04:34 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:05:53 DEBUG    3 changes detected: {(<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\main.py~'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\main.py~'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\main.py')}
+2024-05-04 23:05:56 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:05:57 INFO     registered exception handlers
+2024-05-04 23:05:57 INFO     registered exception handlers
+2024-05-04 23:05:57 DEBUG    Using selector: SelectSelector
+2024-05-04 23:05:57 INFO     registered exception handlers
+2024-05-04 23:05:57 INFO     registered exception handlers
+2024-05-04 23:05:57 DEBUG    6 changes detected: {(<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc.1984424686000'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc.1984424686000'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__')}
+2024-05-04 23:06:41 INFO     registered exception handlers
+2024-05-04 23:06:41 INFO     registered exception handlers
+2024-05-04 23:06:42 INFO     registered exception handlers
+2024-05-04 23:06:42 INFO     registered exception handlers
+2024-05-04 23:06:42 DEBUG    Using selector: SelectSelector
+2024-05-04 23:06:42 INFO     registered exception handlers
+2024-05-04 23:06:42 INFO     registered exception handlers
+2024-05-04 23:06:42 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:06:53 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:06:56 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:06:59 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:07:08 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:07:28 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:07:28 INFO     Notification of invalid sensor's data: sensor='TempratureSensor' value=51 details='Validate TempratureSensor: 51 Not in range 0-50'
+2024-05-04 23:07:28 ERROR    Sensor Monitor, Internal server error - Validation exception handler. Error:1 validation error for AlertResponse
+details
+  Field required [type=missing, input_value={'res': True, 'sensor': 'TempratureSensor'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.7/v/missing
+2024-05-04 23:07:28 DEBUG    returned response - [422] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:09:17 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:09:50 INFO     registered exception handlers
+2024-05-04 23:09:50 INFO     registered exception handlers
+2024-05-04 23:09:53 INFO     registered exception handlers
+2024-05-04 23:09:53 INFO     registered exception handlers
+2024-05-04 23:09:53 DEBUG    Using selector: SelectSelector
+2024-05-04 23:09:53 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:09:53 INFO     registered exception handlers
+2024-05-04 23:09:53 INFO     registered exception handlers
+2024-05-04 23:10:01 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:10:06 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:10:16 INFO     Notification of invalid sensor's data: sensor='TempratureSensor' value=51 details='Validate TempratureSensor: 51 Not in range 0-50'
+2024-05-04 23:11:00 ERROR    Sensor Monitor, Internal server error - Validation exception handler. Error:1 validation error for AlertResponse
+details
+  Field required [type=missing, input_value={'res': True, 'sensor': 'TempratureSensor'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.7/v/missing
+2024-05-04 23:11:00 DEBUG    returned response - [422] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:11:25 INFO     registered exception handlers
+2024-05-04 23:11:25 INFO     registered exception handlers
+2024-05-04 23:11:28 INFO     registered exception handlers
+2024-05-04 23:11:28 INFO     registered exception handlers
+2024-05-04 23:11:28 DEBUG    Using selector: SelectSelector
+2024-05-04 23:11:28 DEBUG    5 changes detected: {(<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\.idea\\workspace.xml~'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\.idea'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\.idea\\workspace.xml~'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\.idea\\workspace.xml')}
+2024-05-04 23:11:28 INFO     registered exception handlers
+2024-05-04 23:11:28 INFO     registered exception handlers
+2024-05-04 23:11:29 DEBUG    2 changes detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\.idea')}
+2024-05-04 23:11:34 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:11:42 INFO     Notification of invalid sensor's data: sensor='TempratureSensor' value=51 details='Validate TempratureSensor: 51 Not in range 0-50'
+2024-05-04 23:11:44 ERROR    Sensor Monitor, Internal server error - Validation exception handler. Error:1 validation error for AlertResponse
+details
+  Field required [type=missing, input_value={'res': True, 'sensor': 'TempratureSensor'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.7/v/missing
+2024-05-04 23:11:44 DEBUG    returned response - [422] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:11:56 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:13:06 DEBUG    4 changes detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\alert_models.py'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\alert_models.py~'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models\\alert_models.py~')}
+2024-05-04 23:14:11 DEBUG    13 changes detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\models'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\alert_notifier_log_service.py'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\alert_notifier_log_service.py~'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\main.py~'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\main.py'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\.idea\\workspace.xml~'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\.idea'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\.idea\\workspace.xml~'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\alert_notifier_service\\services\\alert_notifier_log_service.py~'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\main.py~'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\.idea\\workspace.xml')}
+2024-05-04 23:14:15 INFO     registered exception handlers
+2024-05-04 23:14:15 INFO     registered exception handlers
+2024-05-04 23:14:16 INFO     registered exception handlers
+2024-05-04 23:14:16 INFO     registered exception handlers
+2024-05-04 23:14:16 DEBUG    Using selector: SelectSelector
+2024-05-04 23:14:16 INFO     registered exception handlers
+2024-05-04 23:14:16 INFO     registered exception handlers
+2024-05-04 23:14:16 DEBUG    6 changes detected: {(<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc.2456670810544'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc.2456670810544')}
+2024-05-04 23:14:40 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:14:47 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:14:50 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:14:50 INFO     Notification of invalid sensor's data: sensor='TempratureSensor' value=51 details='Validate TempratureSensor: 51 Not in range 0-50'
+2024-05-04 23:14:50 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:14:56 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:15:08 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:15:08 INFO     Notification of invalid sensor's data: sensor='TempratureSensor' value=51 details='Validate TempratureSensor: 51 Not in range 0-50'
+2024-05-04 23:15:08 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:15:11 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:15:17 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:15:50 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:15:50 INFO     Notification of invalid sensor's data: sensor='TempratureSensor' value=52 details='Validate TempratureSensor: 52 Not in range 0-50'
+2024-05-04 23:15:50 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:15:55 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:16:04 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:16:11 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:16:51 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:16:51 INFO     Notification of invalid sensor's data: sensor='PressureSensor' value=101 details='Validate PressureSensor: 101 Not in range 0-100'
+2024-05-04 23:16:51 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:16:55 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:17:22 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:18:03 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:20:07 INFO     registered exception handlers
+2024-05-04 23:20:07 INFO     registered exception handlers
+2024-05-04 23:20:08 INFO     registered exception handlers
+2024-05-04 23:20:08 INFO     registered exception handlers
+2024-05-04 23:20:08 DEBUG    Using selector: SelectSelector
+2024-05-04 23:20:08 INFO     registered exception handlers
+2024-05-04 23:20:08 INFO     registered exception handlers
+2024-05-04 23:20:08 DEBUG    6 changes detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc.1856686895536'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc'), (<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-310.pyc.1856686895536')}
+2024-05-04 23:20:13 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:20:17 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:20:17 INFO     Notification of invalid sensor's data: sensor='PressureSensor' value=101 details='Validate PressureSensor: 101 Not in range 0-100'
+2024-05-04 23:20:17 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:20:22 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:20:25 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:20:40 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:20:56 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:20:56 INFO     Notification of invalid sensor's data: sensor='PressureSensor' value=101 details='Validate PressureSensor: 101 Not in range 0-100'
+2024-05-04 23:20:56 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:20:59 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:21:29 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:21:29 INFO     Notification of invalid sensor's data: sensor='TempratureSensor' value=56 details='Validate TempratureSensor: 56 Not in range 0-50'
+2024-05-04 23:21:29 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:21:32 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:25:37 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:25:40 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:25:46 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:25:51 INFO     registered exception handlers
+2024-05-04 23:25:51 INFO     registered exception handlers
+2024-05-04 23:25:52 INFO     registered exception handlers
+2024-05-04 23:25:52 INFO     registered exception handlers
+2024-05-04 23:25:52 DEBUG    Using selector: SelectSelector
+2024-05-04 23:25:52 INFO     registered exception handlers
+2024-05-04 23:25:52 INFO     registered exception handlers
+2024-05-04 23:25:52 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:26:31 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:26:52 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:26:59 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:27:21 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:30:55 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:31:26 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:31:26 INFO     Notification of invalid sensor's data: sensor='PressureSensor' value=101 details='Validate PressureSensor: 101 Not in range 0-100'
+2024-05-04 23:31:26 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:31:34 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:32:15 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:32:15 INFO     Notification of invalid sensor's data: sensor='TempratureSensor' value=59 details='Validate TempratureSensor: 59 Not in range 0-50'
+2024-05-04 23:32:15 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:32:23 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:32:43 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:32:56 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:33:08 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:33:08 INFO     Notification of invalid sensor's data: sensor='HumiditySensor' value=0 details='Validate HumiditySensor: 0 Not in range 20-90'
+2024-05-04 23:33:08 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:33:26 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:33:50 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:33:50 INFO     Notification of invalid sensor's data: sensor='PressureSensor' value=101 details='Validate PressureSensor: 101 Not in range 0-100'
+2024-05-04 23:33:50 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:33:55 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:34:11 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:34:39 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:34:39 INFO     Notification of invalid sensor's data: sensor='PressureSensor' value=178 details='Validate PressureSensor: 178 Not in range 0-100'
+2024-05-04 23:34:39 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:34:44 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:35:22 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:36:07 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:36:07 INFO     Notification of invalid sensor's data: sensor='N2OSensor' value=-1 details='Validate N2OSensor: -1 Not in range 0-100'
+2024-05-04 23:36:07 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:36:13 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:36:41 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:36:55 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:38:32 INFO     registered exception handlers
+2024-05-04 23:38:32 INFO     registered exception handlers
+2024-05-04 23:38:33 INFO     registered exception handlers
+2024-05-04 23:38:33 INFO     registered exception handlers
+2024-05-04 23:38:33 DEBUG    Using selector: SelectSelector
+2024-05-04 23:38:33 INFO     registered exception handlers
+2024-05-04 23:38:33 INFO     registered exception handlers
+2024-05-04 23:38:33 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:38:39 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:38:39 INFO     Notification of invalid sensor's data: sensor='N2OSensor' value=-1 details='Validate N2OSensor: -1 Not in range 0-100'
+2024-05-04 23:38:39 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-04 23:38:45 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:38:47 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:38:48 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-04 23:38:54 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 00:18:29 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 00:18:30 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 00:18:41 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 00:18:41 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 00:20:33 DEBUG    received request - [GET] - http://127.0.0.1:8001/docs
+2024-05-05 00:20:33 DEBUG    returned response - [200] - http://127.0.0.1:8001/docs
+2024-05-05 00:20:33 DEBUG    received request - [GET] - http://127.0.0.1:8001/openapi.json
+2024-05-05 00:20:33 DEBUG    returned response - [200] - http://127.0.0.1:8001/openapi.json
+2024-05-05 00:20:39 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-05 00:20:39 INFO     Notification of invalid sensor's data: sensor='string' value=0 details='string'
+2024-05-05 00:20:39 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-05 00:24:46 INFO     registered exception handlers
+2024-05-05 00:24:46 INFO     registered exception handlers
+2024-05-05 00:24:47 INFO     registered exception handlers
+2024-05-05 00:24:47 INFO     registered exception handlers
+2024-05-05 00:24:47 DEBUG    Using selector: SelectSelector
+2024-05-05 00:24:47 INFO     registered exception handlers
+2024-05-05 00:24:47 INFO     registered exception handlers
+2024-05-05 00:24:47 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 00:24:56 DEBUG    received request - [GET] - http://127.0.0.1:8001/docs
+2024-05-05 00:24:56 DEBUG    returned response - [200] - http://127.0.0.1:8001/docs
+2024-05-05 00:24:56 DEBUG    received request - [GET] - http://127.0.0.1:8001/openapi.json
+2024-05-05 00:24:56 DEBUG    returned response - [200] - http://127.0.0.1:8001/openapi.json
+2024-05-05 00:25:02 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-05 00:25:02 INFO     Notification of invalid sensor's data: sensor='string' value=0 details='string'
+2024-05-05 00:25:02 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-05 00:25:46 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 00:26:04 INFO     registered exception handlers
+2024-05-05 00:26:04 INFO     registered exception handlers
+2024-05-05 00:26:05 INFO     registered exception handlers
+2024-05-05 00:26:05 INFO     registered exception handlers
+2024-05-05 00:26:05 DEBUG    Using selector: SelectSelector
+2024-05-05 00:26:05 INFO     registered exception handlers
+2024-05-05 00:26:05 INFO     registered exception handlers
+2024-05-05 00:26:05 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 00:26:23 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 00:34:53 INFO     registered exception handlers
+2024-05-05 00:34:53 INFO     registered exception handlers
+2024-05-05 00:34:54 INFO     registered exception handlers
+2024-05-05 00:34:54 INFO     registered exception handlers
+2024-05-05 00:34:54 DEBUG    Using selector: SelectSelector
+2024-05-05 00:34:55 INFO     registered exception handlers
+2024-05-05 00:34:55 INFO     registered exception handlers
+2024-05-05 00:34:55 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 00:36:04 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-05 00:36:04 INFO     Notification of invalid sensor's data: sensor='N2OSensor' value=-70 details='Validate N2OSensor: -70 Not in range 0-100'
+2024-05-05 00:36:04 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-05 00:36:25 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 00:39:02 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 01:13:45 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 02:02:23 INFO     registered exception handlers
+2024-05-05 02:02:23 INFO     registered exception handlers
+2024-05-05 02:02:24 INFO     registered exception handlers
+2024-05-05 02:02:24 INFO     registered exception handlers
+2024-05-05 02:02:24 DEBUG    Using selector: SelectSelector
+2024-05-05 02:02:24 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 02:02:25 INFO     registered exception handlers
+2024-05-05 02:02:25 INFO     registered exception handlers
+2024-05-05 02:02:25 DEBUG    4 changes detected: {(<Change.deleted: 3>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-312.pyc.2696383364144'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-312.pyc.2696383364144'), (<Change.added: 1>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__\\main.cpython-312.pyc'), (<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\__pycache__')}
+2024-05-05 02:02:37 DEBUG    received request - [GET] - http://127.0.0.1:8001/docs
+2024-05-05 02:02:37 DEBUG    returned response - [200] - http://127.0.0.1:8001/docs
+2024-05-05 02:02:38 DEBUG    received request - [GET] - http://127.0.0.1:8001/openapi.json
+2024-05-05 02:02:38 DEBUG    returned response - [200] - http://127.0.0.1:8001/openapi.json
+2024-05-05 02:02:43 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-05 02:02:43 INFO     Notification of invalid sensor's data: sensor='string' value=0 details='string'
+2024-05-05 02:02:43 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-05 02:03:18 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 02:03:18 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 02:08:36 INFO     registered exception handlers
+2024-05-05 02:08:36 INFO     registered exception handlers
+2024-05-05 02:08:36 INFO     registered exception handlers
+2024-05-05 02:08:36 INFO     registered exception handlers
+2024-05-05 02:08:36 DEBUG    Using selector: SelectSelector
+2024-05-05 02:08:36 INFO     registered exception handlers
+2024-05-05 02:08:36 INFO     registered exception handlers
+2024-05-05 02:08:37 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 02:09:16 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 02:10:28 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 02:14:16 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 02:14:54 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 02:16:44 INFO     registered exception handlers
+2024-05-05 02:16:44 INFO     registered exception handlers
+2024-05-05 02:16:45 INFO     registered exception handlers
+2024-05-05 02:16:45 INFO     registered exception handlers
+2024-05-05 02:16:45 DEBUG    Using selector: SelectSelector
+2024-05-05 02:16:45 INFO     registered exception handlers
+2024-05-05 02:16:45 INFO     registered exception handlers
+2024-05-05 02:16:45 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 02:20:26 INFO     registered exception handlers
+2024-05-05 02:20:26 INFO     registered exception handlers
+2024-05-05 02:20:27 INFO     registered exception handlers
+2024-05-05 02:20:27 INFO     registered exception handlers
+2024-05-05 02:20:27 DEBUG    Using selector: SelectSelector
+2024-05-05 02:20:27 INFO     registered exception handlers
+2024-05-05 02:20:27 INFO     registered exception handlers
+2024-05-05 02:20:27 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 02:21:07 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 02:21:10 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 02:21:13 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 02:21:29 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 02:23:08 DEBUG    received request - [GET] - http://127.0.0.1:8001/docs
+2024-05-05 02:23:08 DEBUG    returned response - [200] - http://127.0.0.1:8001/docs
+2024-05-05 02:23:08 DEBUG    received request - [GET] - http://127.0.0.1:8001/openapi.json
+2024-05-05 02:23:08 DEBUG    returned response - [200] - http://127.0.0.1:8001/openapi.json
+2024-05-05 02:23:37 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-05 02:23:37 INFO     Notification of invalid sensor's data: sensor='TempratureSensor' value=51 details='Validate TempratureSensor: 51 Not in range 0-50'
+2024-05-05 02:23:37 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-05 02:23:44 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 02:23:54 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 02:24:36 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 02:30:13 INFO     registered exception handlers
+2024-05-05 02:30:13 INFO     registered exception handlers
+2024-05-05 02:30:14 INFO     registered exception handlers
+2024-05-05 02:30:14 INFO     registered exception handlers
+2024-05-05 02:30:14 DEBUG    Using selector: SelectSelector
+2024-05-05 02:30:14 INFO     registered exception handlers
+2024-05-05 02:30:14 INFO     registered exception handlers
+2024-05-05 02:30:14 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 02:30:26 DEBUG    received request - [GET] - http://127.0.0.1:8001/docs
+2024-05-05 02:30:26 DEBUG    returned response - [200] - http://127.0.0.1:8001/docs
+2024-05-05 02:30:26 DEBUG    received request - [GET] - http://127.0.0.1:8001/openapi.json
+2024-05-05 02:30:26 DEBUG    returned response - [200] - http://127.0.0.1:8001/openapi.json
+2024-05-05 02:30:39 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-05 02:30:39 INFO     Notification of invalid sensor's data: sensor='string' value=0 details='string'
+2024-05-05 02:30:39 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-05 02:30:45 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 02:31:01 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 02:31:26 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 02:31:49 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 02:32:11 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 02:34:17 INFO     registered exception handlers
+2024-05-05 02:34:17 INFO     registered exception handlers
+2024-05-05 02:34:18 INFO     registered exception handlers
+2024-05-05 02:34:18 INFO     registered exception handlers
+2024-05-05 02:34:18 DEBUG    Using selector: SelectSelector
+2024-05-05 02:34:18 INFO     registered exception handlers
+2024-05-05 02:34:18 INFO     registered exception handlers
+2024-05-05 02:34:18 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 02:34:26 DEBUG    received request - [GET] - http://127.0.0.1:8001/docs
+2024-05-05 02:34:26 DEBUG    returned response - [200] - http://127.0.0.1:8001/docs
+2024-05-05 02:34:26 DEBUG    received request - [GET] - http://127.0.0.1:8001/openapi.json
+2024-05-05 02:34:26 DEBUG    returned response - [200] - http://127.0.0.1:8001/openapi.json
+2024-05-05 02:34:30 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-05 02:34:30 INFO     Notification of invalid sensor's data: sensor='string' value=0 details='string'
+2024-05-05 02:34:30 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-05 02:34:36 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 02:36:50 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-05 02:36:50 INFO     Notification of invalid sensor's data: sensor='TempratureSensor' value=51 details='Validate TempratureSensor: 51 Not in range 0-50'
+2024-05-05 02:36:50 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-05 02:36:58 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}
+2024-05-05 02:38:06 DEBUG    received request - [POST] - http://127.0.0.1:8001/watchit/notify/
+2024-05-05 02:38:06 INFO     Notification of invalid sensor's data: sensor='HumiditySensor' value=19 details='Validate HumiditySensor: 19 Not in range 20-90'
+2024-05-05 02:38:06 DEBUG    returned response - [200] - http://127.0.0.1:8001/watchit/notify/
+2024-05-05 02:38:36 DEBUG    1 change detected: {(<Change.modified: 2>, 'C:\\Dev\\watchit\\microservices\\alert-notifier-service\\dev_watchit_alert.log')}

@@ -33,10 +33,12 @@ http://127.0.0.1:8001/watchit/notify/
 **!!! It should be access-limited from main Service (CORS and original)**
 
 **Run from PyCharm (See attached video)**
+
 https://youtu.be/3UbuQRdmeRU
 \watchit\microservices\alert-notifier-service\main.py
 
 **Run from Terminal:**
+
 \watchit\microservices\alert-notifier-service\
 1. python ./main.py (windows) python3 ./main.py (Linux)
 2. uvicorn main:app --port 8001  --reload 

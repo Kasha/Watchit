@@ -1,6 +1,6 @@
 Watchit Sensor Data Monitor and invalid data notification Microservices
 
-Watchit Sensor Monitor, Data Feeder, and validation Main Microservice. Invalid data notification Microservice FastAPI+AsyncIO HTTP RESTFul API and Swagger: API Documentation (Simulator)
+Watchit Sensor Monitor, Data Feeder, and validation Microservice. Invalid data notification Microservice FastAPI+AsyncIO HTTP RESTFul API and Swagger: API Documentation (Simulator)
 
 
 **Watchit Sensor Data Monitoring and Alerting 
@@ -17,7 +17,7 @@ http://127.0.0.1:8000/watchit/sensors/pressuresensor
 http://127.0.0.1:8000/watchit/sensors/n2osensor**
 
 **Run from PyCharm (See attached video)**
-https://youtu.be/60tp5y6M5rI
+[https://youtu.be/z_VjckN8M8Q](https://youtu.be/z_VjckN8M8Q?si=4yDj9aRfLwfA9GfF)
 watchit\microservices\monitor-sensors-service\main.py
 
 **Run from Terminal:**
@@ -33,7 +33,7 @@ http://127.0.0.1:8001/watchit/notify/
 **!!! It should be access limited from main Service (CORS and original)**
 
 **Run from PyCharm (See attached video)**
-https://youtu.be/60tp5y6M5rI
+[https://youtu.be/z_VjckN8M8Q](https://youtu.be/z_VjckN8M8Q?si=4yDj9aRfLwfA9GfF)
 \watchit\microservices\alert-notifier-service\main.py
 
 **Run from Terminal:**

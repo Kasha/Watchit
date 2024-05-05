@@ -22,7 +22,7 @@ watchit\microservices\monitor-sensors-service\main.py
 **Run from Terminal:**
 watchit\microservices\monitor-sensors-service\
 1. python ./main.py (windows) python3 ./main.py (Linux)
-2. uvicorn main:app --port:8000 --reload
+2. uvicorn main:app --port 8000  --reload
 
 **Swagger docs and feeder: http://127.0.0.1:8000/docs**
 
@@ -37,7 +37,7 @@ http://127.0.0.1:8001/watchit/notify/
 **Run from Terminal:**
 \watchit\microservices\alert-notifier-service\
 1. python ./main.py (windows) python3 ./main.py (Linux)
-2. uvicorn main:app --port:8001 --reload 
+2. uvicorn main:app --port 8001  --reload 
 
 **Swagger docs and feeder: http://127.0.0.1:8001/docs**
 
@@ -60,3 +60,4 @@ Google guidelines (small and readable functions)
 
 PyLint and Coverage for future code analyzer and test coverage
 PyTest for future End To End, Integration, Unit Test (Including monkey patch for URL and runtime classes data mock-ups)
+

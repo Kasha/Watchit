@@ -17,7 +17,7 @@ http://127.0.0.1:8000/watchit/sensors/pressuresensor
 http://127.0.0.1:8000/watchit/sensors/n2osensor**
 
 **Run from PyCharm (See attached video)**
-[https://youtu.be/z_VjckN8M8Q](https://youtu.be/z_VjckN8M8Q?si=4yDj9aRfLwfA9GfF)
+https://youtu.be/3UbuQRdmeRU
 watchit\microservices\monitor-sensors-service\main.py
 
 **Run from Terminal:**
@@ -30,10 +30,10 @@ watchit\microservices\monitor-sensors-service\
 **Internal Service:**
 Alert-notifier-service
 http://127.0.0.1:8001/watchit/notify/
-**!!! It should be access limited from main Service (CORS and original)**
+**!!! It should be access-limited from main Service (CORS and original)**
 
 **Run from PyCharm (See attached video)**
-[https://youtu.be/z_VjckN8M8Q](https://youtu.be/z_VjckN8M8Q?si=4yDj9aRfLwfA9GfF)
+https://youtu.be/3UbuQRdmeRU
 \watchit\microservices\alert-notifier-service\main.py
 
 **Run from Terminal:**

@@ -46,6 +46,7 @@ https://youtu.be/3UbuQRdmeRU
 **Swagger docs and feeder: http://127.0.0.1:8001/docs**
 
 **Technology**:
+Dependencies managed using Poetry
 FastAPI + Asyncio (for IO bound processing)+ aiohttp for Asynchronous HTTP Client/Server HTTP RESTFull API
 And Micro Services http communication + Swagger: API Documentation & Design Tools
 Exception handling for Runtime errors and HTTP responses + handlers for http exceptions.

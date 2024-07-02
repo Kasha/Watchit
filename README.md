@@ -1,6 +1,6 @@
 Watchit Sensor Data Monitor and invalid data notification Microservices
 
-Watchit Sensor Monitor, Data Feeder ,and validation Main Microservice. Invalid data notification Microservice FastAPI+AsyncIO HTTP RESTFul API and Swagger: API Documentation (Simulator)
+Watchit Sensor Monitor, Data Feeder, and validation Microservice. Invalid data notification Microservice FastAPI+AsyncIO HTTP RESTFul API and Swagger: API Documentation (Simulator)
 
 
 **Watchit Sensor Data Monitoring and Alerting 
@@ -17,31 +17,36 @@ http://127.0.0.1:8000/watchit/sensors/pressuresensor
 http://127.0.0.1:8000/watchit/sensors/n2osensor**
 
 **Run from PyCharm (See attached video)**
+https://youtu.be/3UbuQRdmeRU
 watchit\microservices\monitor-sensors-service\main.py
 
 **Run from Terminal:**
 watchit\microservices\monitor-sensors-service\
 1. python ./main.py (windows) python3 ./main.py (Linux)
-2. uvicorn main:app --port:8000 --reload
+2. uvicorn main:app --port 8000  --reload
 
 **Swagger docs and feeder: http://127.0.0.1:8000/docs**
 
 **Internal Service:**
 Alert-notifier-service
 http://127.0.0.1:8001/watchit/notify/
-**!!! It should be access limited from main Service (CORS and original)**
+**!!! It should be access-limited from main Service (CORS and original)**
 
 **Run from PyCharm (See attached video)**
+
+https://youtu.be/3UbuQRdmeRU
 \watchit\microservices\alert-notifier-service\main.py
 
 **Run from Terminal:**
+
 \watchit\microservices\alert-notifier-service\
 1. python ./main.py (windows) python3 ./main.py (Linux)
-2. uvicorn main:app --port:8001 --reload 
+2. uvicorn main:app --port 8001  --reload 
 
 **Swagger docs and feeder: http://127.0.0.1:8001/docs**
 
 **Technology**:
+Dependencies managed using Poetry
 FastAPI + Asyncio (for IO bound processing)+ aiohttp for Asynchronous HTTP Client/Server HTTP RESTFull API
 And Micro Services http communication + Swagger: API Documentation & Design Tools
 Exception handling for Runtime errors and HTTP responses + handlers for http exceptions.
@@ -60,3 +65,4 @@ Google guidelines (small and readable functions)
 
 PyLint and Coverage for future code analyzer and test coverage
 PyTest for future End To End, Integration, Unit Test (Including monkey patch for URL and runtime classes data mock-ups)
+

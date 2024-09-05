@@ -9,6 +9,8 @@ microservices:**
 **Main Service:**
 Sensor-monitor-service
 
+
+
 FastAPI dynamic routing for available and valid sensors (configured in config.yaml)
 
 **http://127.0.0.1:8000/watchit/sensors/tempraturesensor
@@ -19,6 +21,17 @@ http://127.0.0.1:8000/watchit/sensors/n2osensor**
 **Run from PyCharm (See attached video)**
 https://youtu.be/3UbuQRdmeRU
 watchit\microservices\monitor-sensors-service\main.py
+
+**How to install**
+
+set monitor_sensors_service as namespace (from PyCharm Project menu)
+
+From Terminal/ Bash / Command Line
+cd microservices
+cd monitor-sensors-service
+cd monitor_sensors_service 
+poetry shell
+poetry install
 
 **Run from Terminal:**
 watchit\microservices\monitor-sensors-service\
@@ -36,6 +49,17 @@ http://127.0.0.1:8001/watchit/notify/
 
 https://youtu.be/3UbuQRdmeRU
 \watchit\microservices\alert-notifier-service\main.py
+
+**How to install**
+
+set alert_notifier_service as namespace (from PyCharm Project menu)
+
+From Terminal/ Bash / Command Line
+cd microservices
+cd alert-notifier-service
+cd alert_notifier_service 
+poetry shell
+poetry install
 
 **Run from Terminal:**
 

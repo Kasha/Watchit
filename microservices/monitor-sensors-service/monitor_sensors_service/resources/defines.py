@@ -9,14 +9,15 @@
 
 from abc import ABC, abstractmethod
 from typing import Any
-from enum import Enum
+from enum import IntEnum
 import logging
 from fastapi import FastAPI, Request, HTTPException
 from fastapi.encoders import jsonable_encoder
 from fastapi.responses import JSONResponse
 from pydantic import BaseModel, ValidationError
-from monitor_sensors_service.resources.settings import app_settings
 from starlette import status
+from monitor_sensors_service.resources.settings import app_settings
+
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(format='%(asctime)s %(levelname)-8s %(message)s',
@@ -24,7 +25,7 @@ logging.basicConfig(format='%(asctime)s %(levelname)-8s %(message)s',
                     level=app_settings.LOGGING_LEVEL, datefmt='%Y-%m-%d %H:%M:%S')
 
 
-class ErrorCode(Enum):
+class ErrorCode(IntEnum):
     SENSOR_HTTP_INTERNAL_SERVER = 0,
     SENSOR_HTTP_PAGE_NOT_FOUND = 1,
     SENSOR_HTTP_BAD_REQUEST = 3,
@@ -66,47 +67,47 @@ class ClientErrorBase(ABC, Exception):
 
 # HTTP Errors
 class SensorMonitorInternalServerError(ClientErrorBase):
-    error_code: int = ErrorCode.SENSOR_HTTP_INTERNAL_SERVER.value
+    error_code: int = ErrorCode.SENSOR_HTTP_INTERNAL_SERVER
     details: str = "Sensor Monitor Internal Server Error"
     http_status_code: int = status.HTTP_500_INTERNAL_SERVER_ERROR
 
 
 class SensorMonitorNotFoundError(ClientErrorBase):
-    error_code: int = ErrorCode.SENSOR_HTTP_PAGE_NOT_FOUND.value
+    error_code: int = ErrorCode.SENSOR_HTTP_PAGE_NOT_FOUND
     details: str = "Sensor Monitor not found"
     http_status_code: int = status.HTTP_404_NOT_FOUND
 
 
 class SensorMonitorBadRequestError(ClientErrorBase):
-    error_code: int = ErrorCode.SENSOR_HTTP_BAD_REQUEST.value
+    error_code: int = ErrorCode.SENSOR_HTTP_BAD_REQUEST
     details: str = "Sensor Monitor Invalid Data"
     http_status_code: int = status.HTTP_400_BAD_REQUEST
 
 
 class SensorMonitorNotAuthorizedtError(ClientErrorBase):
-    error_code: int = ErrorCode.SENSOR_HTTP_UNAUTHORIZED_REQUEST.value
+    error_code: int = ErrorCode.SENSOR_HTTP_UNAUTHORIZED_REQUEST
     details: str = "Sensor Monitor, Un Authorized Access"
     http_status_code: int = status.HTTP_401_UNAUTHORIZED
 
 
 # Server runtime errors
 class SensorRuntimeInternalServerError(ClientErrorBase):
-    error_code: int = ErrorCode.SENSOR_RUNTIME_INTERNAL.value
+    error_code: int = ErrorCode.SENSOR_RUNTIME_INTERNAL
     details: str = "Internal Runtime Sensor Error"
 
 
 class SensorRuntimeFailedToReadConfigFileError(ClientErrorBase):
-    error_code: int = ErrorCode.SENSOR_RUNTIME_FAILED_TO_OPEN_CONFIG_FILE.value
+    error_code: int = ErrorCode.SENSOR_RUNTIME_FAILED_TO_OPEN_CONFIG_FILE
     details: str = "Failed To Read Config File, Runtime Error"
 
 
 class SensorRuntimeFailedToReadConfigFileError(ClientErrorBase):
-    error_code: int = ErrorCode.SENSOR_RUNTIME_EMPTY_VALUES_IN_CONFIG.value
+    error_code: int = ErrorCode.SENSOR_RUNTIME_EMPTY_VALUES_IN_CONFIG
     details: str = "Failed To Read Sensor Values from Config, Runtime Error"
 
 
 class SensorRuntimeFailedToPublishNotificationError(ClientErrorBase):
-    error_code: int = ErrorCode.SENSOR_RUNTIME_FAILED_PUBLISHING_NOTIFICATION.value
+    error_code: int = ErrorCode.SENSOR_RUNTIME_FAILED_PUBLISHING_NOTIFICATION
     details: str = "Failed Publishing Notification"
 
 

@@ -6,7 +6,7 @@ from monitor_sensors_service.services.sensor_monitor_pressure import PressureSen
 from monitor_sensors_service.services.sensor_monitor_humidity import HumiditySensorService
 from monitor_sensors_service.services.sensor_monitor_n2o import N2OSensorService
 from monitor_sensors_service.domains.sensor_monitor_domain_base import ISensorMonitorDomain
-from monitor_sensors_service.resources.config import app_config
+from monitor_sensors_service.resources.config import Configuration
 from monitor_sensors_service.models.sensor_models import AlertItem, ValidateResponse, ClientError
 from monitor_sensors_service.clients.sensor_monitor_client_base import ISensorMonitorClient, ISensorMonitorService, \
     ValidateResponse
@@ -76,9 +76,8 @@ class SensorMonitorClient(ISensorMonitorClient):
                 return validate_response
 
     @classmethod
-    async def data_feeder(cls, *, class_name: str | ISensorMonitorService, value: int) -> bool:
-        res: bool = False
-        sensor_monitor: ISensorMonitorService = None
+    async def data_feeder(cls, *, class_name: str | ISensorMonitorService, value: int, app_config: Configuration)\
+            -> bool:
         if isinstance(class_name, str):
             name: str = f'{class_name}Service'
             # No need for object  instance, but class reference for static service call
@@ -86,7 +85,7 @@ class SensorMonitorClient(ISensorMonitorClient):
         else:
             sensor_monitor_service = class_name
         logger.info(f'data_feeder check for {value} in Sensor {sensor_monitor_service.__class__.__name__}')
-        validate_response: ValidateResponse = await sensor_monitor_service.validate(value=value)
+        validate_response: ValidateResponse = await sensor_monitor_service.validate(value=value, app_config=app_config)
         if not validate_response.res:
             await cls.__send_notification(alert_item=
                                           AlertItem(**{'sensor': validate_response.sensor,

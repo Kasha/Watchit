@@ -9,9 +9,7 @@
 # Copyright (c) 2024 Liad Kashanovsky.  All rights reserved.
 
 from os import path
-
 import yaml
-
 from monitor_sensors_service.resources.defines import logger, app_settings, \
     SensorRuntimeFailedToReadConfigFileError, Any
 
@@ -62,4 +60,5 @@ class Configuration(object):
         raise Configuration.__log("Failed to read config.yaml file, using default values")
 
 
-app_config = Configuration()
+def _get_config() -> Configuration:
+    return Configuration()

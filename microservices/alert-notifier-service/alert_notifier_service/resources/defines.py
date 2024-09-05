@@ -14,9 +14,10 @@ import logging
 from fastapi import FastAPI, Request, HTTPException
 from fastapi.encoders import jsonable_encoder
 from fastapi.responses import JSONResponse
+from starlette import status
 from pydantic import BaseModel, ValidationError
 from alert_notifier_service.resources.settings import app_settings
-from starlette import status
+
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(format='%(asctime)s %(levelname)-8s %(message)s',

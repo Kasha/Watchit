@@ -1,6 +1,4 @@
 from monitor_sensors_service.services.sensor_monitor_service_base import ISensorMonitorService, Any
-from monitor_sensors_service.resources.config import app_config
-from monitor_sensors_service.resources.defines import logger, SensorRuntimeFailedToReadConfigFileError, Any
 
 
 class HumiditySensorService(ISensorMonitorService):

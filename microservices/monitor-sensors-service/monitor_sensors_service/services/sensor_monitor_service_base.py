@@ -1,8 +1,8 @@
 from abc import ABC, abstractmethod
 from typing import Any
 from monitor_sensors_service.models.sensor_models import ValidateResponse
-from monitor_sensors_service.resources.config import app_config
-from monitor_sensors_service.resources.defines import logger, SensorRuntimeFailedToReadConfigFileError
+from monitor_sensors_service.resources.config import Configuration
+from monitor_sensors_service.resources.defines import logger
 
 
 class ISensorMonitorService(ABC):
@@ -22,7 +22,7 @@ class ISensorMonitorService(ABC):
         pass
 
     @classmethod
-    async def validate(cls, *, value: int) -> ValidateResponse:
+    async def validate(cls, *, value: int, app_config: Configuration) -> ValidateResponse:
         sensor_name: str = cls.__name__.split("Service")[0]
         logger.info(f"Validate {sensor_name}: {value}")
         # Config.py validates existing and validity of configuration attributes

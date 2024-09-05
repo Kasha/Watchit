@@ -1,15 +1,33 @@
 import uvicorn
-
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
+from contextlib import asynccontextmanager
 from starlette import status
 from alert_notifier_service.models.alert_models import AlertItem, AlertResponse
 from alert_notifier_service.resources.defines import ClientError, ServerError, register_exceptions_handlers
-
 from alert_notifier_service.domains.alert_notifier_domain import AlertNotifierDomain
 from alert_notifier_service.api.middlewares import setup_middlewares
 
-app = FastAPI()
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    print("startup has begun!!")
+    yield
+    print('App was ended gracefully.')
+
+
+app = FastAPI(lifespan=lifespan)
+
 register_exceptions_handlers(app)
+origins = [
+    "*"
+]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 setup_middlewares(app)
 
 

@@ -1,3 +1,12 @@
-/.idea
-/__pycache__
+**/.idea
+/.idea/
+**/__pycache__
 /*.log
+**/htmlcov/
+**/.coverage
+**/.mypy_cache/
+**/tmp
+**/.env
+**/.env.test
+**/.env.stg
+**/.env.dev

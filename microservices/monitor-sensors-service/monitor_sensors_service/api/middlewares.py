@@ -7,7 +7,7 @@ from starlette.middleware.base import RequestResponseEndpoint
 from starlette.requests import Request
 from starlette.responses import Response
 
-from monitor_sensors_service.resources.defines import logger
+from ..resources.defines import logger
 
 
 def setup_middlewares(app: FastAPI) -> None:

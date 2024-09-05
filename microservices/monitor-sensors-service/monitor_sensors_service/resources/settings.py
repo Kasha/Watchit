@@ -54,7 +54,7 @@ class AppDevSettings(AppSettings):
     pass
 
 
-def __get_app_settings() -> AppSettings:
+def _get_app_settings() -> AppSettings:
     """Factory method to choose settings according to environment"""
     match env:
         case EnvTypes.DEV:
@@ -67,4 +67,4 @@ def __get_app_settings() -> AppSettings:
     return AppSettings()  # pragma: no cover
 
 
-app_settings = __get_app_settings()
+app_settings = _get_app_settings()

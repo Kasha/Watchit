@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import Any
-from monitor_sensors_service.clients.sensor_monitor_client_base import ISensorMonitorClient
+from ..clients.sensor_monitor_client_base import ISensorMonitorClient
+from ..resources.config import Configuration
 
 
 class ISensorMonitorDomain(ABC):
@@ -31,5 +32,5 @@ class ISensorMonitorDomain(ABC):
 
     @classmethod
     @abstractmethod
-    async def data_feeder(cls, *, class_name: str, value: int) -> bool:
+    async def data_feeder(cls, *, class_name: str, value: int, app_config: Configuration) -> bool:
         pass

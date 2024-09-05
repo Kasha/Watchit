@@ -1,18 +1,40 @@
 import uvicorn
-
 from fastapi import FastAPI, Request
+from fastapi.middleware.cors import CORSMiddleware
+from contextlib import asynccontextmanager
 from starlette import status
-from monitor_sensors_service.models.sensor_models import SensorItem, SensorResponse, ClientError, ServerError
-from monitor_sensors_service.resources.config import app_config, Any
-from monitor_sensors_service.resources.defines import register_exceptions_handlers, \
-    SensorRuntimeFailedToReadConfigFileError, logger
+from typing import Any
+from monitor_sensors_service.models.sensor_models import \
+    (SensorItem, SensorResponse, ClientError, ServerError)
 
+from monitor_sensors_service.resources.defines import register_exceptions_handlers
 from monitor_sensors_service.domains.sensor_monitor_domain import SensorMonitorDomain
 from monitor_sensors_service.api.middlewares import setup_middlewares
+from monitor_sensors_service.resources.config import Configuration, _get_config
 
-app = FastAPI()
+
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    print("startup has begun!!")
+    yield
+    print('App was ended gracefully.')
+
+
+app = FastAPI(lifespan=lifespan)
 register_exceptions_handlers(app)
+origins = [
+    "*"
+]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 setup_middlewares(app)
+
+app_config: Configuration = _get_config()
 
 
 async def sensor_handle(item: SensorItem, request: Request) -> SensorResponse:
@@ -21,7 +43,7 @@ async def sensor_handle(item: SensorItem, request: Request) -> SensorResponse:
     sensor_name = sensor['type']
     valid_range: list[int] = sensor['valid_range']
 
-    res: bool = await SensorMonitorDomain.data_feeder(class_name=sensor_name, value=item.value)
+    res: bool = await SensorMonitorDomain.data_feeder(class_name=sensor_name, value=item.value, app_config=app_config)
     if not res:
         # Logic failure
         return SensorResponse(status="failed", details=f"{item.value} not in range: {valid_range}")

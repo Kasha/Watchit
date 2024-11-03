@@ -1,92 +1,98 @@
-Watchit Sensor Data Monitor and invalid data notification Microservices
+# Watchit Sensor Data Monitoring and Notification Microservices
 
-Watchit Sensor Monitor, Data Feeder, and validation Microservice. Invalid data notification Microservice FastAPI+AsyncIO HTTP RESTFul API and Swagger: API Documentation (Simulator)
+This project provides a set of **FastAPI** microservices for monitoring sensor data, validating it, and notifying on any invalid data. Built with **AsyncIO** for efficient asynchronous handling, this RESTful API supports dynamic routing and is managed with **Poetry** for streamlined dependency management.
 
+## Microservices Overview
 
-**Watchit Sensor Data Monitoring and Alerting 
-microservices:**
+1. **Sensor Monitor Service** (`monitor-sensors-service`)
+   - The main microservice for monitoring data from configured sensors (as specified in `config.yaml`).
+   - Supports dynamic routing to provide sensor-specific endpoints:
+     - `http://127.0.0.1:8000/watchit/sensors/tempraturesensor`
+     - `http://127.0.0.1:8000/watchit/sensors/humiditysensor`
+     - `http://127.0.0.1:8000/watchit/sensors/pressuresensor`
+     - `http://127.0.0.1:8000/watchit/sensors/n2osensor`
+   - **Swagger Documentation**: [API Documentation](http://127.0.0.1:8000/docs)
 
-**Main Service:**
-Sensor-monitor-service
+2. **Alert Notifier Service** (`alert-notifier-service`)
+   - Internal service for handling notifications about invalid data from the main service.
+   - Should be access-limited to authorized calls from the main Sensor Monitor Service (using CORS and origin restrictions).
+   - **Endpoint**: `http://127.0.0.1:8001/watchit/notify`
+   - **Swagger Documentation**: [API Documentation](http://127.0.0.1:8001/docs)
 
+## Getting Started
 
+### Prerequisites
 
-FastAPI dynamic routing for available and valid sensors (configured in config.yaml)
+- **Python 3.8+**
+- **Poetry**: Install with `pip install poetry` if not already installed.
 
-**http://127.0.0.1:8000/watchit/sensors/tempraturesensor
-http://127.0.0.1:8000/watchit/sensors/humiditysensor
-http://127.0.0.1:8000/watchit/sensors/pressuresensor
-http://127.0.0.1:8000/watchit/sensors/n2osensor**
+### Installation Instructions
 
-**Run from PyCharm (See attached video)**
-https://youtu.be/3UbuQRdmeRU
-watchit\microservices\monitor-sensors-service\main.py
+1. **Clone the Repository**
+   ```bash
+   git clone <repository_url>
+   ```
 
-**How to install**
+2. **Sensor Monitor Service Setup**
+   - Navigate to the microservice directory:
+     ```bash
+     cd microservices/monitor-sensors-service/monitor_sensors_service
+     ```
+   - Initialize Poetry, activate the virtual environment, and install dependencies:
+     ```bash
+     poetry shell
+     poetry install
+     ```
+   - To run the service:
+     ```bash
+     uvicorn main:app --port 8000 --reload
+     ```
 
-set monitor_sensors_service as namespace (from PyCharm Project menu)
+3. **Alert Notifier Service Setup**
+   - Navigate to the microservice directory:
+     ```bash
+     cd microservices/alert-notifier-service/alert_notifier_service
+     ```
+   - Initialize Poetry, activate the virtual environment, and install dependencies:
+     ```bash
+     poetry shell
+     poetry install
+     ```
+   - To run the service:
+     ```bash
+     uvicorn main:app --port 8001 --reload
+     ```
 
-From Terminal/ Bash / Command Line
-cd microservices
-cd monitor-sensors-service
-cd monitor_sensors_service 
-poetry shell
-poetry install
+### Running from PyCharm
 
-**Run from Terminal:**
-watchit\microservices\monitor-sensors-service\
-1. python ./main.py (windows) python3 ./main.py (Linux)
-2. uvicorn main:app --port 8000  --reload
+1. Set the namespace for each service (`monitor_sensors_service` or `alert_notifier_service`) in **PyCharm**.
+2. Open the terminal within PyCharm and follow the above installation steps.
 
-**Swagger docs and feeder: http://127.0.0.1:8000/docs**
+**Video Tutorial**: [Setup and Run Instructions](https://youtu.be/3UbuQRdmeRU)
 
-**Internal Service:**
-Alert-notifier-service
-http://127.0.0.1:8001/watchit/notify/
-**!!! It should be access-limited from main Service (CORS and original)**
+## Key Technologies
 
-**Run from PyCharm (See attached video)**
+- **FastAPI**: For creating RESTful API endpoints.
+- **AsyncIO** + **aiohttp**: For asynchronous client-server communication.
+- **Swagger**: Integrated API documentation.
+- **Poetry**: For dependency and environment management.
+- **MyPy** and **Pydantic**: For type-checking and data validation.
 
-https://youtu.be/3UbuQRdmeRU
-\watchit\microservices\alert-notifier-service\main.py
+### Logging and Exception Handling
 
-**How to install**
+- Configured logging for route activities and invalid data alerts.
+- Custom exception handling for HTTP responses and runtime errors.
 
-set alert_notifier_service as namespace (from PyCharm Project menu)
+### Design and Code Standards
 
-From Terminal/ Bash / Command Line
-cd microservices
-cd alert-notifier-service
-cd alert_notifier_service 
-poetry shell
-poetry install
+- **Domain-Driven Design (DDD)**: Separates domain, client, and service logic.
+- **Google Style Guide**: Emphasis on small, readable functions.
 
-**Run from Terminal:**
+## Planned Enhancements
 
-\watchit\microservices\alert-notifier-service\
-1. python ./main.py (windows) python3 ./main.py (Linux)
-2. uvicorn main:app --port 8001  --reload 
+- **PyLint** and **Coverage**: For future code analysis and test coverage.
+- **PyTest**: For planned End-to-End, Integration, and Unit Testing (includes mock-ups for URL and runtime data).
 
-**Swagger docs and feeder: http://127.0.0.1:8001/docs**
+## License
 
-**Technology**:
-Dependencies managed using Poetry
-FastAPI + Asyncio (for IO bound processing)+ aiohttp for Asynchronous HTTP Client/Server HTTP RESTFull API
-And Micro Services http communication + Swagger: API Documentation & Design Tools
-Exception handling for Runtime errors and HTTP responses + handlers for http exceptions.
-Custom exceptions
-
-Logger with handlers for catching routing activities
-Logger for invalid data notification writing
-
-MyPy, Pydentic for typo and annotations and validations
-
-**Coding guidelines:**
-Domain Driven Design (Domain+Client+Service infrastructure and design)
-Google guidelines (small and readable functions)
-
-**Installed but not used:**
-
-PyLint and Coverage for future code analyzer and test coverage
-PyTest for future End To End, Integration, Unit Test (Including monkey patch for URL and runtime classes data mock-ups)
-
+This project is licensed under the [MIT License](LICENSE).

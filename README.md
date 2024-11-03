@@ -1,7 +1,14 @@
+Simple FastAPI+AsyncIO (Dynamic Routing) HTTP RESTFul API, Poetry
 Watchit Sensor Data Monitor and invalid data notification Microservices
 
 Watchit Sensor Monitor, Data Feeder, and validation Microservice. Invalid data notification Microservice FastAPI+AsyncIO HTTP RESTFul API and Swagger: API Documentation (Simulator)
 
+Resources managed by poetry:
+If poetry isn't installed: pip install poetry  (PyCharm terminal or any other command line):
+After cloning from each microservice folder (PyCharm terminal or any other command line):
+1. poetry init
+2. poetry shell
+3. poetry install
 
 **Watchit Sensor Data Monitoring and Alerting 
 microservices:**

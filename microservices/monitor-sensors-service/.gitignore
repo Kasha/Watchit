@@ -12,3 +12,4 @@ __pycache__
 **/.env.test
 **/.env.stg
 **/.env.dev
+./venv
